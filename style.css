@@ -18,7 +18,6 @@ html,body{
     height: 100%;
     width: 100%;
     font-family: poppins;
-    /* overflow-y: auto; */
 }
 
 
@@ -32,7 +31,6 @@ main{
 
 nav{
     position: relative;
-    background-color: beige;
     height: 14vh;
     max-width: 100vw;
     display: flex;
@@ -44,7 +42,6 @@ nav{
 }
 
 nav h4{
-    background-color: blue;
     height: 100%;
     width: fit-content;
     padding: 0 4.5vw;
@@ -58,8 +55,8 @@ nav h4{
 
 nav h1{
     height: 100%;
-    padding: 0 4.5vw;
-    width: fit-content;
+    padding: 0 3vw;
+    width: 20vw;
     font-size: 45px;
     letter-spacing: -6px;
     font-family: monument,sans-serif;
@@ -67,10 +64,32 @@ nav h1{
     display: flex;
     align-items: center;
     justify-content: center ;
+    position: relative;
+}
+
+nav h1::after{
+    content: "©️";
+    font-size: 1vw;
+    position: absolute;
+    top: 1.5vw;
+    left:245px;
+    font-weight: 500;
+    color: #755656;
+}
+
+nav h1::before{
+    content: "model management";
+    letter-spacing: 0;
+    font-weight: 500;
+    width: fit-content;
+    font-size: .5vw;
+    position: absolute;
+    color: #755656;
+    left: 50%;
+    bottom: 20%;
 }
 
 nav i{
-    background-color: blue;
     height: 100%;
     padding: 0 4.5vw;
     font-size: 25px;
@@ -80,13 +99,11 @@ nav i{
     font-weight: 900;
     display: grid;
     place-content: center;
-    /* font-size: 15px; */
 }
 
 
 /* center img */
 .img-container{
-    /* background-color: red; */
     width: 100%;
     height: 80.5vh;
     padding: 2vw 3vw;
@@ -104,7 +121,6 @@ nav i{
 .overlay{
     position: absolute;
     bottom: 0;
-    /* background-color: red; */
     height: 50%;
     width: calc(100% - 6vw);
     padding: 0 4vw;
@@ -130,7 +146,6 @@ nav i{
     height: 60px;
     width: 60px;
     color: white;
-    /* background-color: rebeccapurple; */
     border: .5px solid white;
     border-right: 2px solid white;
     border-radius: 50%;
@@ -158,12 +173,10 @@ nav i{
 
 /* infinity-scroll */
 .infinity-scroll{
-    /* background-color: red; */
     height: 40vh;
     width: 100%;
     display: flex;
     align-items: center;
-    /* gap: 2vw; */
     white-space: nowrap;
     overflow-x: hidden;
    
@@ -202,7 +215,6 @@ nav i{
 
 /* next page */
 .a2z{
-    /* background-color: red; */
     height: 12vh;
     width: 100%;
     display: flex;
@@ -217,14 +229,12 @@ nav i{
 .a2z h1{
     margin-right: 3vw;
     text-decoration: underline;
-    /* font-weight: 500; */
 }
 
 .a2z h4{
     font-weight: 500;
     height: 30px;
     width: 30px;
-    /* background-color: blue; */
     border-radius: 50%;
     display: grid;
     place-content: center;
@@ -239,7 +249,6 @@ nav i{
 
 /* first section */
 .first{
-    /* background-color: red; */
     height: 100vh;
     width: 100%;
     position: relative;
@@ -249,7 +258,6 @@ nav i{
 }
 
 .first .left{
-    /* background-color: blue; */
     height: 100%;
     width: 55%;
     display: flex;
@@ -269,7 +277,6 @@ nav i{
 }
 
 .first .right{
-    /* background-color: blue; */
     height: 100%;
     width: 40%;
 }
@@ -282,14 +289,11 @@ nav i{
 
 .article{
     display: flex;
-    background-color: #b1bfee;
     gap: 2vw;
     margin-top: .5vw;
-    /* height: 4vw; */
 }
 .article h3{
     font-weight: 500;
-    /* font-size: 2vw; */
 }
 .article h5{
     font-weight: 500;
@@ -300,13 +304,11 @@ nav i{
 .second{
     height: 100vh;
     width: 100%;
-    /* background-color: red; */
     display: flex;
     padding: 3vw 3vw;
 }
 
 .second .left{
-    /* background-color: blue; */
     height: 100%;
     width: 50%;
     padding: 0 2vw;
@@ -324,8 +326,6 @@ nav i{
 .rotating-text{
     height: 100%;
     width: 100%;
-    /* background-color: yellow; */
-    /* position: absolute; */
     display: grid;
     place-content: center;
 }
@@ -333,7 +333,6 @@ nav i{
 
 
 .second .right{
-    /* background-color: yellow; */
     height: 100%;
     width: 60%;
 }
@@ -348,7 +347,6 @@ nav i{
     position: relative;
     height: 200px;
     width: 200px;
-    /* background-color: red; */
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -360,7 +358,6 @@ nav i{
     width: 80px;
     top: 30%;
     left: 30%;
-    /* background-color: blue; */
 }
 
 .rotating-text .circle h4{
@@ -391,7 +388,6 @@ nav i{
 .third{
     height: 100vh;
     width: 100%;
-    /* background-color: red; */
     padding: 2vw 3vw;
 }
 
@@ -402,7 +398,270 @@ nav i{
     object-position: top;
 }
 
+/* fourth-section */
+.fourth{
+    height: 100vh;
+    width: 100%;
+    padding: 2vw 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5vw;
+    align-items: center;
+}
 
+.fourth h1{
+    font-family: monumnet,sans-serif;
+    font-size: 3vw;
+    font-weight: 900;
+}
+
+.fourth .updates{
+    width: 100%;
+    height: 100%;
+}
+
+.fourth .updates div{
+    width: 100%;
+    height: 15vh;
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding: 0 1.5vw;
+    position: relative;
+}
+
+.fourth .updates div:nth-last-child(1){
+    border-bottom: 1px solid black;
+}
+
+.fourth .updates div h5{
+    width: 50%;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+.fourth .updates div h3{
+    font-weight: 500;
+    font-size: 2vw;
+    position: relative;
+}
+
+.fourth .updates div .one::before{
+    content: "25TH MARCH 2020";
+    font-size: .7vw;
+    font-weight: 600;
+    position: absolute;
+    bottom: -10px;
+}
+.fourth .updates div .two::before{
+    content: "3RD FEBRUARY 2020";
+    font-size: .7vw;
+    font-weight: 600;
+    position: absolute;
+    bottom: -10px;
+}
+.fourth .updates div .three::before{
+    content: "14TH JANUARY 2020";
+    font-size: .7vw;
+    font-weight: 600;
+    position: absolute;
+    bottom: -10px;
+}
+.fourth .updates div .four::before{
+    content: "08TH JANUARY 2020";
+    font-size: .7vw;
+    font-weight: 600;
+    position: absolute;
+    bottom: -10px;
+}
+
+.fourth .updates div img{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    left: 7%;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: all ease 1s;
+    opacity: 0;
+}
+
+.fourth .updates div h5:hover + img{
+    opacity: 1;
+    left: 20%;
+}
+.fourth .updates div img:hover {
+    opacity: 1;
+    left: 20%;
+}
+
+/* fifth */
+.fifth{
+    height: 100vh;
+    width: 100%;
+    padding: 2vw 3vw;
+    display: flex;
+    gap: 7vw;
+}
+
+.fifth .left{
+    height: 100%;
+    width: 50%;
+}
+
+.fifth .left img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.fifth .right{
+    height: 100%;
+    width: 50%;
+}
+
+.right-up{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1vw 0;
+}
+
+.right-up h1{
+    font-family: monument,sans-serif;
+    text-transform: uppercase;
+}
+.right-up h3{
+    font-weight: 600;
+}
+.right-up h5{
+    font-weight: 600;
+}
+
+.right-down{
+    height: 50%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    gap: 2vw;
+}
+
+.right-down #left{
+    height: 100%;
+    width: 55%;
+    object-fit: cover;
+}
+.right-down #right{
+    height: 100%;
+    width: 45%;
+    object-fit: cover;
+}
+
+
+/* Sixth */
+.sixth{
+    height: 100vh;
+    width: 100%;
+    padding: 2vw 3vw;
+}
+
+.sixth img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+/* eighth */
+.eighth{
+    height: 100vh;
+    width: 100%;
+    padding: 2vw 0;
+}
+
+.marque{
+    padding: 1vw 0;
+    width: 100%;
+    white-space: nowrap;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    overflow-x: hidden;
+    
+}
+
+@keyframes marque {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(calc(-100% - 20px));
+    }
+}
+
+.marque h1{
+    display: inline-block;
+    height: 100%;
+    text-transform: uppercase;
+    color: transparent;
+    font-size: 3vw;
+    font-family: monument,sans-serif;
+    font-family: 900;
+    margin-right: 16px;
+    letter-spacing: 2px;
+    -webkit-text-stroke: 2px black;
+    animation: marque 3s linear infinite;
+}
+
+
+.eighth article{
+    height: 100%;
+    width: 100%;
+    padding: 5vw 3vw;
+    display: flex;
+    gap: 4vw;
+}
+
+.eighth .left{
+    width: 20%;
+    height: 100%;
+}
+
+
+
+.eighth .left h1{
+    font-size: 3vw;
+    font-family: monument, sans-serif;
+}
+
+.eighth .centre{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.eighth .right{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.eighth article h4{
+    font-size: 1.5vw;
+    font-weight: 500;
+    display: flex;
+}
+
+.eighth article img{
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+    object-position: top;
+}
 
 
 
@@ -411,4 +670,84 @@ nav i{
 footer{
     height: 50vh;
     width: 100%;
+    padding: 5vw 0 2vw 0;
+    
+}
+
+footer .contain{
+    height: 100%;
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contain > h4{
+    border-right: 1px solid black;
+    width: 20%;
+    text-align: center;
+    padding: 1.5vw 0;
+    font-weight: 600;
+}
+.contain h1{
+    padding: 1vw 3vw;
+    width: 20%;
+    text-align: center;
+    font-family: monument, sans-serif;
+    position: relative;
+}
+
+.foot-logo::after{
+    content: "©️";
+    font-size: 1vw;
+    position: absolute;
+    top: 1.2vw;
+    left:225px;
+    font-weight: 500;
+    color: #755656;
+}
+
+.foot-logo::before{
+    content: "model management";
+    letter-spacing: 0;
+    font-weight: 500;
+    width: fit-content;
+    font-size: .5vw;
+    position: absolute;
+    color: #755656;
+    left: 45%;
+    top: 22%;
+}
+
+.contain .right{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contain .right h4{
+    width: 100%;
+    white-space: nowrap;
+    padding:1.5vw 3vw;
+    border-bottom: 1px solid black;
+    font-weight: 600;
+}
+
+footer .foot-right-down{
+    height: 100%;
+    padding: 1vw 3vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.foot-right-down i{
+    margin-right: .5vw;
+    cursor: pointer;
+}
+
+.foot-right-down .content h5{
+    font-weight: 500;
 }
