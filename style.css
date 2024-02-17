@@ -27,6 +27,7 @@ main{
     position: relative;
     background-color: #f8f8f8;
     padding: 2.5vw 0;
+    overflow-x: hidden;
 }
 
 nav{
@@ -99,6 +100,10 @@ nav i{
     font-weight: 900;
     display: grid;
     place-content: center;
+}
+
+.ri-menu-3-line{
+    opacity: 0;
 }
 
 
@@ -638,16 +643,20 @@ nav i{
 .eighth .centre{
     width: 40%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    display: grid;
+}
+
+.eighth .centre img{
+    align-self: flex-end;
 }
 .eighth .right{
     width: 40%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    display: grid;
+}
+
+.eighth .right img{
+    align-self: flex-end;
 }
 
 .eighth article h4{

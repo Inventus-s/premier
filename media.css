@@ -1,0 +1,256 @@
+@media (max-width: 600px) {
+  main {
+    overflow-x: hidden;
+    padding: 2vw 0;
+  }
+
+  nav {
+    height: 8vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  nav h4 {
+    display: none;
+  }
+
+  nav h1 {
+    justify-self: flex-start;
+    width: fit-content;
+    font-size: 15px;
+    letter-spacing: 0px;
+  }
+
+  nav h1::after {
+    display: none;
+  }
+
+  nav h1::before {
+    display: none;
+  }
+  .ri-search-2-line {
+    display: none;
+  }
+
+  .ri-menu-3-line {
+    opacity: 1;
+    width: 1vw;
+    justify-self: flex-end;
+  }
+
+  /* center img */
+  .img-container {
+    height: 40vh;
+  }
+
+  /* overlay */
+
+  .overlay {
+    height: 20vw;
+  }
+
+  .above {
+    margin-bottom: 1.5vw;
+  }
+
+  .above h1 {
+    font-size: 3vw;
+    letter-spacing: 1px;
+    line-height: 1.2;
+  }
+
+  .above div {
+    height: 30px;
+    width: 30px;
+    font-size: 10px;
+  }
+
+  .below {
+    border-top: 1px solid white;
+  }
+
+  .below img {
+    width: 30px;
+  }
+
+  .below h4 {
+    font-weight: 400;
+    font-size: 3vw;
+  }
+
+  /* infinity-scroll */
+  .infinity-scroll {
+    height: 22vh;
+  }
+
+  .infinity-scroll img {
+    height: 90px;
+    width: 90px;
+  }
+
+  /* next page */
+  .a2z {
+    height: 8vh;
+  }
+
+  .a2z h1 {
+    margin-right: 2vw;
+    font-size: 5vw;
+  }
+
+  .a2z h4 {
+    height: 3.5vw;
+    width: 3.5vw;
+    font-size: 2.5vw;
+  }
+
+  /* first section */
+  .first {
+    height: 50vh;
+  }
+
+  .first .left {
+    height: 80%;
+  }
+
+  .first .left img {
+    height: 90%;
+  }
+  .article h3 {
+    font-weight: 600;
+    font-size: 2vw;
+  }
+  .article h5 {
+    display: none;
+  }
+
+  /* second section */
+  .second {
+    height: 40vh;
+  }
+
+  .rotating-text .circle {
+    height: 100px;
+    width: 100px;
+  }
+
+  .rotating-text img {
+    width: 40px;
+  }
+
+  .rotating-text .circle h4 {
+    font-size: 1.5vw;
+  }
+
+  .rotating-text .circle h4 span {
+    transform-origin: 0 50px;
+  }
+
+  /* third */
+  .third {
+    height: 40vh;
+  }
+
+  /* fourth-section */
+  .fourth {
+    height: 40vh;
+  }
+
+  .fourth .updates div {
+    height: 8vh;
+  }
+
+  .fourth .updates div h5 {
+    font-size: 2vw;
+  }
+
+  .fourth .updates div .one::before {
+    display: none;
+  }
+  .fourth .updates div .two::before {
+    display: none;
+  }
+  .fourth .updates div .three::before {
+    display: none;
+  }
+  .fourth .updates div .four::before {
+    display: none;
+  }
+
+  .fourth .updates div img {
+    height: 40px;
+    width: 40px;
+  }
+
+  /* fifth */
+  .fifth {
+    height: 40vh;
+  }
+
+  .right-up {
+    justify-content: center;
+    gap: 2vw;
+  }
+
+  .right-up h3 {
+    font-size: 2.5vw;
+  }
+
+  .right-up h5 {
+    display: none;
+  }
+
+  /* Sixth */
+  .sixth {
+    height: 40vh;
+  }
+
+  /* eighth */
+  .eighth {
+    height: 50vw;
+  }
+
+  .marque h1 {
+    -webkit-text-stroke: 0.8px black;
+  }
+
+  /* footer */
+footer{
+    height: 28vw;
+    
+}
+
+.contain > h4{
+    display: none;
+}
+.contain h1{
+    font-size: 15px;
+}
+
+.foot-logo::after{
+    display: none;
+}
+
+.foot-logo::before{
+    display: none;
+}
+
+footer .foot-right-down{
+    align-items: flex-end;
+    padding: 0 3vw;
+}
+
+.contain .right h4{
+    display: none;
+}
+
+.foot-right-down i{
+    font-size: 2vw;
+}
+
+.foot-right-down .content h5{
+    font-size: 2vw;
+    text-align: end;
+}
+
+}
